@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #fdf7f0; /* bege clarinho confortável */
+  color: #333;
+}
+
+nav {
+  background-color: #2b2b2b;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  color: #000;
+  border-radius: 5px;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1748873611438-f299b44b81a1?q=80&w=1200&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #2b2b2b;
+}
+
+section p {
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.voltar-topo {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.voltar-topo:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+footer {
+  background-color: #2b2b2b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
